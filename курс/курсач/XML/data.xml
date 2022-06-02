@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+   <card>
+      <img>IMG/audi.svg</img>
+      <title>Audi A5</title>
+      <description>Cabriolet 2.0 TDI quattro S-Line HUD*Matrix*S</description>
+      <price>38 900$</price>
+      <src>HTML/Car.html</src>
+   </card>
+   <card>
+      <img>IMG/bmw1.svg</img>
+      <title>BMW 5 серия</title>
+      <description>G30 540i X-Drive M-Perfomance 340 hp</description>
+      <price>49 900$</price>
+      <src>HTML/Car2.html</src>
+   </card>
+
+   <card>
+      <img>IMG/mers.svg</img>
+      <title>Mercedes-Benz E-class</title>
+      <description>E220d ALL TERRAIN 4MATIC</description>
+      <price>42 900$</price>
+      <src>HTML/Car3.html</src>
+   </card>
+
+   <card>
+      <img>IMG/vol.svg</img>
+      <title>Volkswagen Passat</title>
+      <description>B8 Highline 2.0 TDI</description>
+      <price>20 900$</price>
+      <src>HTML/Car4.html</src>
+   </card>
+
+
+</root>

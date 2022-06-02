@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <link rel="icon" sizes="32x32" href="../IMG/logo.svg" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="../CSS/Car.css" />
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <title>MultiAvto</title>
+</head>
+
+<body>
+   <header class="header">
+      <div class="wrapper">
+         <div class="logo">
+            <a href="../index.html"> <img src="../IMG/logo.svg" alt="logo" /></a>
+         </div>
+         <nav class="nav">
+            <ul>
+               <li>
+                  <a href="Order.html">ЗАКАЗАТЬ АВТО</a>
+               </li>
+               <li>
+                  <a href="../index.html">АВТОМОБИЛИ </a>
+               </li>
+               <li>
+                  <a href="about_us.html">О НАС</a>
+               </li>
+               <li>
+                  <a href="Contact.html">КОНТАКТЫ</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="burger">
+            <div class="containers">
+               <div class="bar1"></div>
+               <div class="bar2"></div>
+               <div class="bar3"></div>
+            </div>
+         </div>
+      </div>
+   </header>
+   <main class="main">
+      <div class="wrapper">
+         <div class="img_main">
+            <div class="img">
+               <img src="../IMG/car/carMersMain.svg" alt="car" id="main_img" />
+            </div>
+            <div class="imgs">
+               <img src="../IMG/car/carMers1.svg" alt="car" class="img_back">
+               <img src="../IMG/car/carMers2.svg" alt="car"class="img_back">
+               <img src="../IMG/car/carMers3.svg" alt="car"class="img_back">
+               <img src="../IMG/car/carMers4.svg" alt="car"class="img_back">
+            </div>
+         </div>
+         <div class="text_main">
+            <h1 class="title_main">
+               Основные характеристики
+            </h1>
+            <p class="description">
+               <span>Год выпуска:</span> 2019
+            </p>
+            <p class="description">
+               <span>Объём двигателя: </span> 2
+            </p>
+            <p class="description">
+               <span>Тип топлива:</span> Дизельное топливо
+            </p>
+            <p class="description">
+               <span>Коробка передач:</span> Автоматическая
+            </p>
+            <p class="description">
+               <span>Тип кузова:</span> Универсал
+            </p>
+            <p class="description">
+               <span>Привод: </span> Полный
+            </p>
+            <p class="description">
+               <span>Цвет:</span> Чёрный
+            </p>
+            <p class="desc">
+               Авто в наличии. Один владелец РБ. Приобретен в Европе.
+               Полный пакет документов + 2 ключа.
+               Оригинальный заводской ЛКП (подтверждено)
+               Оригинальный пробег (подтверждено), Без ДТП (подтверждено)               
+            </p>
+            <div class="button">
+               <a href="Order.html">
+               <button class="btn">
+                 Оставьте заявку
+               </button>
+         </div>
+      </div>
+   </main>
+   <div class="container"></div>
+   <footer class="footer">
+      <div class="wrapper">
+         <div class="logo">MultiAvto.by</div>
+         <div class="contacts">
+            <div class="first">
+               <p>ООО "Мульти Авто"</p>
+
+               <p>Время работы:</p>
+               <p>Понедельник – Суббота</p>
+               <p>9.00-18.00</p>
+            </div>
+            <div class="two">
+               <p>Контакты:</p>
+               <p>+375 33 624 64 71</p>
+               <p>multiavto@mail.b</p>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="../JS/main.js"></script>
+   <script>
+      let img_back = document.querySelectorAll('.img_back');
+      let img = document.querySelector('#main_img');
+    img_back.forEach(function(item){
+        item.addEventListener('mouseover', function(){
+            img.src = item.src;
+        })
+    })
+    console.log(img_back);
+    
+
+
+   </script>
+</body>
+
+</html>
